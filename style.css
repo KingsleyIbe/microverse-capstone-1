@@ -31,7 +31,6 @@
     margin-right: 10px;
     padding-top: 6%;
     margin: 0 1em;
-    /* background-image: url('./images/home-mobile.jpg'); */
   }
 
 .menu {
@@ -39,7 +38,6 @@
     justify-content: end;
     width: 35px;
     height: 3px;
-    /* background-color: #000; */
     margin-top: 7px;
     margin-right: 10px;
     background-color: var(--primary_1);
