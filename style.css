@@ -1,0 +1,290 @@
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+
+
+:root {
+--primary_1: #000;
+--primary_2: #ec5242;
+--primary_3: #78829b;
+--primary_4: #2e323b;
+--secondary_1: #fff;
+--secondary_2: #ece9e9;
+--secondary_3: #d1cfcf;
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header-menu {
+  display: none;
+}
+
+.desktop-menu {
+  display: none;
+}
+
+.menu1 {
+    margin-top: 30px;
+    margin-right: 10px;
+    padding-top: 6%;
+    margin: 0 1em;
+    /* background-image: url('./images/home-mobile.jpg'); */
+  }
+
+.menu {
+    display: flex;
+    justify-content: end;
+    width: 35px;
+    height: 3px;
+    /* background-color: #000; */
+    margin-top: 7px;
+    margin-right: 10px;
+    background-color: var(--primary_1);
+    font-size: 40px;
+  }
+
+.sidebar {
+  display: none;
+}
+  
+  .mobile-top-page {
+    background-image: url(./images/home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+
+  
+  .mobile-first-page {
+    margin-right: 1em;
+    margin-left: 1em;
+    background-image: url(./images/bg-decorator-1.png), url(./images/bg-decorator-2.png), url(./images/bg-decorator-3.png), url(./images/bg-decorator-4.png);
+    background-repeat: no-repeat;
+    background-size: 20%, 12%, 5%, 5%;
+    background-position: 100% 50%, 60% 0%, 90% 3%, 5% 50%;
+    margin-top: 10%;
+  }
+  
+  .mobile-first-page h1 {
+    font-family: 'Lato', sans-serif;
+    color: var(--primary_2);
+    font-size: 25px;
+    padding-top: 6%;
+    width: 100%;
+  }
+  
+  .mobile-first-page h2 {
+    font-family: 'cocogoose', sans-serif;
+    color: transparent;
+    font-size: 40px;
+    width: 100%;
+    background-image: url(./images/font.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  
+  .mobile-first-page p {
+    margin-top: 20%;
+    background-color: var(--secondary_2);
+    border: 3px solid var(--secondary_1);
+    color: var(--primary_4);
+    padding: 20px;
+    line-height: 25px;
+    width: 100%;
+  }
+  
+  .mobile-first-page h3 {
+    font-family: 'cocogoose', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--primary_4);
+    margin-top: 5%;
+  }
+  
+  .mobile-first-page h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    color: var(--primary_4);
+    margin-top: 2%;
+    padding-bottom: 10%;
+  }
+  
+  .mobile-second-page {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/xpattern.jpg);
+    width: 100%;
+    background-repeat: repeat;
+    background-size: 10%;
+    background-color: var(--primary_3);
+    padding-top: 5%;
+  }
+  
+  .mobile-second-page h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 1em auto;
+    color: var(--secondary_1);
+  }
+  
+  .mobile-second-page h2::after {
+    content: "";
+    background-color: var(--primary_2);
+    display: block;
+    margin: 0 auto;
+    width: 1.5em;
+    height: 2px;
+    border-radius: 0.5px;
+    margin-top: 0.5em;
+  }
+  
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(252, 241, 241, 0.277);
+    padding: 30px;
+    margin-left: 1em;
+    margin-right: 1em;
+    gap: 20px;
+  }
+  
+  .mobile-second-page h3 {
+    color: var(--primary_2);
+    font-size: 20px;
+  }
+  
+  .mobile-second-page a {
+    color: var(--secondary_1);
+    font-size: xx-large;
+  }
+  
+  .mobile-second-page p {
+    color: var(--secondary_1);
+    font-size: 20px;
+  }
+  
+  .mobile-second-page button {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--secondary_1);
+    background-color: var(--primary_2);
+    margin: 2em auto;
+    padding: 20px;
+  }
+  
+  .mobile-third-page {
+    background-color: var(--secondary_1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mobile-third-page h2 {
+    padding-top: 5%;
+    align-self: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+  }
+  
+  .mobile-third-page #event::after {
+    content: "";
+    background-color: var(--primary_2);
+    display: block;
+    margin: 0 auto;
+    width: 1.5em;
+    height: 2px;
+    border-radius: 0.5px;
+    margin-top: 0.5em;
+  }
+  
+  .speakers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10%;
+  }
+  
+  .image-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  
+  .speakers img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .speaker-image {
+    width: 8em;
+    height: 8em;
+    flex-shrink: 0;
+  }
+  
+  .speakers h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  
+  .speakers h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: var(--primary_2);
+    font-style: italic;
+    padding-top: 0.6em;
+  }
+  
+  .speakers h3::after {
+    content: "";
+    background-color: var(--primary_3);
+    display: block;
+    width: 1.5em;
+    height: 2px;
+    border-radius: 0.5px;
+    margin: 1em 0;
+  }
+  
+  .speakers h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+  }
+  
+  .more-btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 80px;
+    padding-left: 80px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--primary_3);
+    background-color: var(--secondary_1);
+    border: 1px solid var(--secondary_3);
+    margin: 5% 8%;
+  }
+  
+  .arrow {
+    content: "\f078";
+    color: var(--primary_2);
+  }
+  
+  .mobile-third-page span {
+    padding-right: 15px;
+  }
+  
