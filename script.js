@@ -16,25 +16,25 @@ const guestSpeakers = [
     },
     {
         image: './images/ajise-bonke.png',
-        name: 'Ajise Tolu',
+        name: 'Ajise Bonke',
         role: 'Chairman of the Organisation',
         bio: 'Ex-Professor at the University of Manchester'
     },
     {
         image: './images/kalolo-hauf.png',
-        name: 'Ajise Tolu',
+        name: 'Kalolo Hauf',
         role: 'Chairman of the Organisation',
         bio: 'Ex-Professor at the University of Manchester'
     },
     {
         image: './images/mithi-debas',
-        name: 'Ajise Tolu',
+        name: 'Mithi Debas',
         role: 'Chairman of the Organisation',
         bio: 'Ex-Professor at the University of Manchester'
     },
     {
         image: './images/sam-omar',
-        name: 'Ajise Tolu',
+        name: 'Sam Omar',
         role: 'Chairman of the Organisation',
         bio: 'Ex-Professor at the University of Manchester'
     },
