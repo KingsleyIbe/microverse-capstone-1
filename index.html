@@ -17,9 +17,9 @@
     <title>Microverse Capstone One</title>
 </head>
 <body>
-    <div>
-        <header class="header-menu">
-            <nav>
+    <div class="header-menu-general">
+        <header>
+            <nav class="header-menu">
                 <a href="" class="mx-3 text-white"><i class="fab fa-facebook"></i></a>
                 <a href="" class="mx-3 text-white"><i class="fab fa-twitter"></i></a>
                 <a href="" class="mx-3 text-white">English</a>
@@ -29,20 +29,17 @@
             </nav>
         <div class="desktop-menu">
             <div>
-                <div>
-                    <a href="index.html">
-                        <span>Open Source Global</span>
+                    <a class="os-logo" href="index.html">
+                        <i class="fab fa-osi"></i>
+                        <span>Open Source Global<br></span>
                         <span>Submit 2021</span>
                     </a>
-                </div>
-                <div>
-                    <a href="about.html">About</a>
+                    <a class="about" href="about.html">About</a>
                     <a href="">Program</a>
                     <a href="">Join</a>
                     <a href="">Sponsor</a>
                     <a href="">News</a>
-                    <a href="">OS Campaign</a>
-                </div>
+                    <a class="OS-campaign" href="">OS Campaign</a>
             </div>
 
         </div>
@@ -84,6 +81,7 @@
     <section>
         <div class="mobile-second-page">
             <h2>Main Program</h2>
+            <div class="card-flex">
             <div class="card-1">
                 <a href="/"><i class="fas fa-book-reader"></i></a>
                 <h3>Lecture</h3>
@@ -111,35 +109,37 @@
             </div>
             <button class="join-event-btn">Join the OS Global Summit 2021</button>
         </div>
-
+        <a class="all-program-link" href="/"><p>SEE THE WHOLE PROGRAM</p></a>
+    </div>
         <div class="mobile-third-page">
-            <h2 id="event">Guest Speakers</h2>
-            <div class="image-container">
-                <div class="speakers">
-                    <div class="speaker-image">
-                        <img src="./images/emma-gbenga.png" alt="An Image of the first speaker">
-                    </div>
-                    <div>
-                        <h2>Emma Gbenga</h2>
-                        <h3>Founder Open Source Africa</h3>
-                        <h4>Formal UI designer at Google</h4>
-                    </div>
-                </div>
-                <div class="speakers">
-                    <div class="speaker-image">
-                        <img src="./images/charles-shady.png" alt="An Image of the second speaker">
-                    </div>
-                    <div>
-                        <h2>Charles Shady</h2>
-                        <h3>Full-stack developer</h3>
-                        <h4>Team Lead at Microsoft Inc.</h4>
-                    </div>
-                </div>
+            <h2 id="event">Event Speakers</h2>
+            <div class="image-display-1" id="image-display">    
             </div>
             <button class="more-btn"><span>MORE</span><i class="fas fa-chevron-down arrow"></i></button>
         </div>
+
+        <div class="partners">
+            <h2>Partner</h2>
+            <div class="partners-logo">
+                <img class="chrome" src="./images/google-logo.png" alt="chrome-image">
+                <img class="google" src="./images/github-logo.png" alt="google-image">
+                <img class="facebook" src="./images/freepik-logo.png" alt="facebook-image">
+                <img class="amazon" src="./images/microverse-logo.png" alt="amazon-image">
+                <img class="airbnb" src="./images/behance.png" alt="airbnb-image">
+            </div>
+        </div>
+        <div class="mobile-about-footer">
+            <img src="./images/venture-logo.jpg" alt="cc-logo">
+            <img src="./images/mozilla-logo.png" alt="mozilla-image">
+            <a class="os-logo" href="index.html">
+                <i class="fab fa-osi"></i>
+                <span>Open Source<br></span>
+            </a>
+        </div>
+
     </section>
     </section>
 </main>
+<script src="script.js"></script>
 </body>
 </html>
