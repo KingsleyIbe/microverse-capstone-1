@@ -6,9 +6,12 @@
   --primary_2: #ec5242;
   --primary_3: #78829b;
   --primary_4: #2e323b;
+  --primary_5: #cac6c6;
   --secondary_1: #fff;
   --secondary_2: #ece9e9;
   --secondary_3: #d1cfcf;
+  --secondary_4: #d3d3d3;
+  --secondary_5: #f5220a;
 }
 
 * {
@@ -67,13 +70,13 @@ body {
 
 .mobile-menu .sidebar-cancel {
   margin: 30px;
-  color: #fff;
+  color: var(--secondary_1);
 }
   
 .mobile-menu .menuPopUp a {
   display: flex;
   flex-direction: column;
-  color: #fff;
+  color: var(--secondary_1);
   margin-top: 3rem;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 32px;
@@ -87,7 +90,7 @@ body {
   
 
 .about-first-section {
-  background-color: #cac6c6;
+  background-color: var(--primary_5);
   margin-bottom: 50px;
 }
 
@@ -119,7 +122,7 @@ body {
   font-family: 'COCOGOOSE', Arial, sans-serif;
   font-size: 43px;
   width: 100%;
-  color: #f5220a;;
+  color: var(--secondary_5);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -127,7 +130,7 @@ body {
 .about-mobile-first-section p {
   margin-top: 15%;
   background-color: var(--secondary_1);
-  border: 2px solid #d3d3d3;
+  border: 2px solid var(--secondary_4);
   color: var(--primary_4);
   padding: 20px;
   line-height: 20px;
@@ -189,7 +192,7 @@ h3 {
   font-weight: 900;
   font-size: 25px;
   justify-content: center;
-  border: 1px solid #cac6c6;
+  border: 1px solid var(--primary_5);
   padding: 25px 27%;
   margin: 3% 0;
   text-align: center;
@@ -332,11 +335,11 @@ h3 {
 }
 
 .mobile-about-footer a i {
-  color: #ec5242;
+  color: var(--primary_2);
 }
 
 .mobile-about-footer a span {
-  color: #2e323b;
+  color: var(--primary_4);
 }
 
 @media all and (min-width: 768px) {
@@ -352,7 +355,7 @@ h3 {
       display: flex;
       width: 100%;
       justify-content: right;
-      background-color: #2e323b;
+      background-color: var(--primary_4);
       padding-right: 20px;
       padding-bottom: 20px;
       padding-top: 20px;
@@ -360,7 +363,7 @@ h3 {
 
     .header-menu a {
       text-decoration: none;
-      color: #fff;
+      color: var(--secondary_1);
       margin-right: 40px;
       font-family: 'Lato', sans-serif;
     }
@@ -369,17 +372,16 @@ h3 {
       display: flex;
       width: 100%;
       justify-content: right;
-      background-color: #fff;
+      background-color: var(--secondary_1);
       margin-top: 80px;
       margin-bottom: 40px;
       margin-left: 50px;
-      padding-right: 100px;
     }
 
     .desktop-menu a {
       text-decoration: none;
       margin-right: 40px;
-      color: #2e323b;
+      color: var(--primary_4);
       font-family: 'Lato', sans-serif;
     }
 
@@ -390,18 +392,18 @@ h3 {
     }
 
     .desktop-menu .fab {
-      color: #ec5242;
+      color: var(--primary_2);
       font-size: large;
       font-weight: bolder;
     }
 
     .desktop-menu .about {
-      color: #ec5242;
+      color: var(--primary_2);
     }
 
     .desktop-menu .OS-campaign {
-      color: #ec5242;
-      border: solid 3px #ec5242;
+      color: var(--primary_2);
+      border: solid 3px var(--primary_2);
       padding: 7px;
     }
 
@@ -423,7 +425,7 @@ h3 {
     }
 
     .mobile-aboutpage-first-nav a {
-      color: #fff;
+      color: var(--secondary_1);
       text-decoration: none;
       padding-right: 15px;
       margin-right: 4%;
@@ -446,7 +448,7 @@ h3 {
 
     .mobile-aboutpage-second-nav a {
       text-decoration: none;
-      color: #000;
+      color: var(--primary_1);
       padding-right: 20px;
     }
 
@@ -477,13 +479,13 @@ h3 {
     }
 
     .about-mobile-first-section h2 {
-      color: #f5220a;
+      color: var(--secondary_5);
       font-size: 70px;
     }
 
     .about-mobile-first-section h2::after {
       content: "";
-      background-color: #ec5242;
+      background-color: var(--primary_2);
       display: block;
       margin: 0 auto;
       width: 1.3em;
@@ -494,10 +496,10 @@ h3 {
 
     .about-mobile-first-section p {
       margin: 5% auto;
-      background-color: #fff;
-      border: 2px solid #d3d3d3;
-      color: #2e323b;
-        padding: 50px;
+      background-color: var(--secondary_1);
+      border: 2px solid var(--secondary_4);
+      color: var(--primary_4);
+      padding: 50px;
       line-height: 25px;
       width: 60%;
     }
@@ -518,7 +520,7 @@ h3 {
 
     .about-second-section h3::after {
       content: "";
-      background-color: #ec5242;
+      background-color: var(--primary_2);
       display: block;
       margin: 0 auto;
       width: 1.5em;
@@ -532,7 +534,7 @@ h3 {
       font-weight: 900;
       font-size: 40px;
       justify-content: center;
-      border: 1px solid #cac6c6;
+      border: 1px solid var(--primary_5);
       padding: 25px 10%;
       margin: 3% 0;
       text-align: center;
@@ -561,10 +563,10 @@ h3 {
     }
 
     .mobile-about-footer a i {
-      color: #ec5242;
+      color: var(--primary_2);
     }
 
     .mobile-about-footer a span {
-      color: #2e323b;
+      color: var(--primary_4);
     }
 }

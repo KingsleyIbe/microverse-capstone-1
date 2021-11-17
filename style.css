@@ -17,10 +17,12 @@
   margin: 0;
 }
 
-body {
+body, html {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 .header-menu {
@@ -54,13 +56,13 @@ body {
 
 .mobile-menu .sidebar-cancel {
   margin: 30px;
-  color: #fff;
+  color: var(--secondary_1);
 }
 
   .mobile-menu .menuPopUp a {
   display: flex;
   flex-direction: column;
-  color: #fff;
+  color: var(--secondary_1);
   margin-top: 3rem;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 32px;
@@ -101,7 +103,6 @@ body {
   background-repeat: no-repeat;
   background-size: 20%, 12%, 5%, 5%;
   background-position: 100% 50%, 60% 0%, 90% 3%, 5% 50%;
-  margin-top: 10%;
 }
 
   .mobile-first-page h1 {
@@ -217,7 +218,7 @@ body {
 }
 
 .mobile-second-page p {
-  color: #fff;
+  color: var(--secondary_1);
   font-size: 20px;
 }
 
@@ -333,15 +334,16 @@ body {
     display: flex;
     width: 100%;
     justify-content: right;
-    background-color: #2e323b;
+    background-color: var(--primary_4);
     padding-right: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
+    position: fixed;
   }
 
   .header-menu a {
     text-decoration: none;
-    color: #fff;
+    color: var(--secondary_1);
     margin-right: 40px;
     font-family: 'Lato', sans-serif;
   }
@@ -351,8 +353,9 @@ body {
     width: 100%;
     justify-content: right;
     background-color: rgb(210, 218, 194);
-    border: solid 1px #2e323b;
+    border: solid 1px var(--primary_4);
     padding-right: 100px;
+    padding-top: 60px;
   }
 
   .desktop-container {
@@ -362,7 +365,7 @@ body {
   .desktop-menu a {
     text-decoration: none;
     margin-right: 40px;
-    color: #2e323b;
+    color: var(--primary_4);
     font-family: 'Lato', sans-serif;
   }
 
@@ -373,18 +376,18 @@ body {
   }
 
   .desktop-menu .fab {
-    color: #ec5242;
+    color: var(--primary_2);
     font-size: large;
     font-weight: bolder;
   }
 
   .desktop-menu .about {
-    color: #ec5242;
+    color: var(--primary_2);
   }
 
   .desktop-menu .OS-campaign {
-    color: #ec5242;
-    border: solid 3px #ec5242;
+    color: var(--primary_2);
+    border: solid 3px var(--primary_2);
     padding: 7px;
   }
 
@@ -444,8 +447,8 @@ body {
   .mobile-first-page p {
     margin-top: 5%;
     background-color: #f3e7e7;
-    border: 3px solid #fff;
-    color: #000;
+    border: 3px solid var(--secondary_1);
+    color: var(--primary_1);
     padding: 20px;
     line-height: 25px;
     width: 40%;
@@ -478,7 +481,7 @@ body {
   }
  
   .card-4 {
-    border: 4px solid #fff;
+    border: 4px solid var(--secondary_1);
   }
 
   .card-flex {
@@ -496,7 +499,7 @@ body {
     justify-content: center;
     margin: 40px 0;
     font-size: 10px;
-    color: #fff;
+    color: var(--secondary_1);
   }
 
   .speaker-1 {
@@ -530,7 +533,7 @@ body {
 
   .partners h2::after {
     content: "";
-    background-color: #ec5242;
+    background-color: var(--primary_2);
     display: block;
     width: 1.5em;
     height: 2px;
@@ -555,10 +558,10 @@ body {
   }
 
   .mobile-about-footer a i {
-    color: #ec5242;
+    color: var(--primary_2);
   }
 
   .mobile-about-footer a span {
-    color: #2e323b;
+    color: var(--primary_4);
   }  
 }
