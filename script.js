@@ -64,7 +64,6 @@ const hamburger = document.querySelector('.menu1');
 const closeBtn = document.querySelector('.closeBtn');
 
 hamburger.addEventListener('click', () => {
-    console.log('clicked')
     const menu = document.querySelector('.mobile-menu');
     menu.style.display = 'block';
   });
@@ -89,6 +88,3 @@ hamburger.addEventListener('click', () => {
         value.style.display = 'none';
      });
   };
-
-//   const closeBtn1 = document.querySelector('.closeBtn-1');
-//   close(closeBtn1,'.mobile-project-details');
