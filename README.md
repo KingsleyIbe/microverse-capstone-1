@@ -19,8 +19,8 @@ Users will be able to register for event, create account, join event, access spe
 
 ## Live Demo
 
-[Live Demo Link](https://kingsleyibe.github.io/microverse-capstone-1/)
-[Project Live Video](https://kingsleyibe.github.io/microverse-capstone-1/)
+- [Live Demo Link](https://kingsleyibe.github.io/microverse-capstone-1/)
+- [Project Live Video](https://www.loom.com/share/5361ffabb15c49fd8eba327adfaf5472)
 
 
 ## Getting Started
@@ -57,6 +57,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgment 
 - Microverse 
 -  Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+- [Creative commons](https://creativecommons.org/licenses/by-nc/4.0/)
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
