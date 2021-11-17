@@ -17,7 +17,7 @@
   margin: 0;
 }
 
-body, 
+body,
 html {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
@@ -63,7 +63,7 @@ html {
   font-size: xx-large;
 }
 
-  .mobile-menu .menuPopUp a {
+.mobile-menu .menuPopUp a {
   display: flex;
   flex-direction: column;
   color: var(--secondary_1);
@@ -109,13 +109,13 @@ html {
   background-position: 100% 50%, 60% 0%, 90% 3%, 5% 50%;
 }
 
-  .mobile-first-page h1 {
-    font-family: 'Lato', sans-serif;
-    color: var(--primary_2);
-    font-size: 25px;
-    padding-top: 6%;
-    width: 100%;
-  }
+.mobile-first-page h1 {
+  font-family: 'Lato', sans-serif;
+  color: var(--primary_2);
+  font-size: 25px;
+  padding-top: 6%;
+  width: 100%;
+}
 
 .mobile-first-page h2 {
   font-family: 'cocogoose', sans-serif;
@@ -126,7 +126,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-clip: text;
-  background-clip: text;
+  background-clip: border-box;
 }
 
 .mobile-first-page p {
@@ -154,7 +154,7 @@ html {
   margin-top: 2%;
   padding-bottom: 10%;
 }
- 
+
 .mobile-second-page {
   display: grid;
   gap: 20px;
@@ -562,5 +562,4 @@ html {
   .mobile-about-footer a span {
     color: var(--primary_4);
   }
-
 }
