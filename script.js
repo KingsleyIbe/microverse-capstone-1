@@ -12,31 +12,31 @@ const guestSpeakers = [
         image: './images/charles-shady.png',
         name: 'Charles Shady',
         role: 'Full-stack developer',
-        bio: 'Ex-Professor at the University of Manchester'
+        bio: 'Amazon Product Designer'
     },
     {
         image: './images/ajise-bonke.png',
         name: 'Ajise Bonke',
-        role: 'Chairman of the Organisation',
-        bio: 'Ex-Professor at the University of Manchester'
+        role: 'UI/UX',
+        bio: 'Product Manager at Octax'
     },
     {
         image: './images/kalolo-hauf.png',
         name: 'Kalolo Hauf',
-        role: 'Chairman of the Organisation',
-        bio: 'Ex-Professor at the University of Manchester'
+        role: 'Managing Director',
+        bio: 'Gricd Integrated Services'
     },
     {
         image: './images/mithi-debas.png',
         name: 'Mithi Debas',
-        role: 'Chairman of the Organisation',
-        bio: 'Ex-Professor at the University of Manchester'
+        role: 'CEO',
+        bio: 'Drelugs Limited - kelugs integrated venture'
     },
     {
         image: './images/sam-omar.png',
         name: 'Sam Omar',
-        role: 'Chairman of the Organisation',
-        bio: 'Ex-Professor at the University of Manchester'
+        role: 'CTO',
+        bio: 'VFD Micro-finance Bank'
     },
 ];
 
@@ -58,12 +58,12 @@ const guestSpeakerAtEvent = document.querySelector('.image-display-1');
 guestSpeakers.forEach((card) => {
     guestSpeakerAtEvent.innerHTML += displaySpeakerInfo(card);
 });
-};
 
 const hamburger = document.querySelector('.menu1');
 const closeBtn = document.querySelector('.closeBtn');
 
 hamburger.addEventListener('click', () => {
+    console.log("clicked")
     const menu = document.querySelector('.mobile-menu');
     menu.style.display = 'block';
   });
@@ -88,3 +88,4 @@ hamburger.addEventListener('click', () => {
         value.style.display = 'none';
      });
   };
+};
