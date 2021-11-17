@@ -17,7 +17,6 @@
     <title>Microverse Capstone One</title>
 </head>
 <body>
-    <div class="header-menu-general">
         <header>
             <nav class="header-menu">
                 <a href="" class="mx-3 text-white"><i class="fab fa-facebook"></i></a>
@@ -28,7 +27,7 @@
 
             </nav>
         <div class="desktop-menu">
-            <div>
+            <div class="desktop-container">
                     <a class="os-logo" href="index.html">
                         <i class="fab fa-osi"></i>
                         <span>Open Source Global<br></span>
@@ -41,9 +40,7 @@
                     <a href="">News</a>
                     <a class="OS-campaign" href="">OS Campaign</a>
             </div>
-
-        </div>
-    </div>
+        </div> 
     </header>
     <div class="mobile-top-page">
         <div class="mobile-top-pag-bg">
@@ -55,11 +52,10 @@
     </div>
     <div class="mobile-menu">
         <div class="sidebar-cancel">
-          <!-- <button class="closeBtn" type="button">&times;</button> -->
           <i class="far fa-times-circle fa-3x closeBtn"></i>
         </div>
         <div class="menuPopUp">
-            <a href="index.html" class="anchor-link">Home</a>
+          <a href="index.html" class="anchor-link">Home</a>
           <a href="about.html" class="anchor-link">About</a>
           <a href="index.html" class="anchor-link">Program</a>
           <a href="index.html" class="anchor-link">Join</a>
@@ -68,7 +64,7 @@
         </div>
       </div>
       <main>
-      <section>
+      <section id="program">
         <div class="mobile-first-page">
             <h1>"Welcome To"</h1>
             <h2>Open Source<br>Global Summit<br>2021</h2>
@@ -80,7 +76,8 @@
     </div>
 </div>
 </div>
-    <section>
+</section>
+    <section id="main-program">
         <div class="mobile-second-page">
             <h2>Main Program</h2>
             <div class="card-flex">
@@ -113,13 +110,16 @@
         </div>
         <a class="all-program-link" href="/"><p>SEE THE WHOLE PROGRAM</p></a>
     </div>
+    </section>
+    <section class="event-speakes">
         <div class="mobile-third-page">
             <h2 id="event">Event Speakers</h2>
             <div class="image-display-1" id="image-display">    
             </div>
             <button class="more-btn"><span>MORE</span><i class="fas fa-chevron-down arrow"></i></button>
         </div>
-
+    </section>
+    <section id="event-partners">
         <div class="partners">
             <h2>Partner</h2>
             <div class="partners-logo">
@@ -130,6 +130,8 @@
                 <img class="airbnb" src="./images/behance.png" alt="airbnb-image">
             </div>
         </div>
+    </section>
+    <footer>
         <div class="mobile-about-footer">
             <img src="./images/venture-logo.jpg" alt="cc-logo">
             <img src="./images/mozilla-logo.png" alt="mozilla-image">
@@ -138,12 +140,8 @@
                 <span>Open Source<br></span>
             </a>
         </div>
-
-    </section>
-    </section>
+    </footer>
 </main>
-<!-- <div class="sidebar"> -->
-  <!-- </div> -->
 <script src="script.js"></script>
 </body>
 </html>

@@ -355,6 +355,10 @@ body {
     padding-right: 100px;
   }
 
+  .desktop-container {
+    padding-bottom: 30px;
+  }
+
   .desktop-menu a {
     text-decoration: none;
     margin-right: 40px;
@@ -362,7 +366,7 @@ body {
     font-family: 'Lato', sans-serif;
   }
 
-  .desktop-menu .os-logo {
+  .os-logo span {
     margin-right: 450px;
     font-size: large;
     font-weight: bolder;

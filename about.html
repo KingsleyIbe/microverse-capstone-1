@@ -12,8 +12,7 @@
     <title>About Conference Page</title>
 </head>
 <body>
-    <div class="header-menu-general">
-        <header>
+        <header class="header-menu-general">
             <nav class="header-menu">
                 <a href="" class="mx-3 text-white"><i class="fab fa-facebook"></i></a>
                 <a href="" class="mx-3 text-white"><i class="fab fa-twitter"></i></a>
@@ -28,28 +27,16 @@
                     <span>Open Source Global<br></span>
                     <span>Submit 2021</span>
                 </a>
+                <a href="index.html">Home</a>
                 <a class="about" href="about.html">About</a>
                 <a href="">Program</a>
                 <a href="">Join</a>
                 <a href="">Sponsor</a>
                 <a href="">News</a>
                 <a class="OS-campaign" href="">OS Campaign</a>
-        </div>
-    </div>
-</div>
-    <div class="mobile-menu">
-      <div class="sidebar-cancel">
-        <i class="far fa-times-circle fa-3x closeBtn"></i>
-      </div>
-      <div class="menuPopUp">
-        <a href="index.html" class="anchor-link">Home</a>
-        <a href="about.html" class="anchor-link">About</a>
-        <a href="index.html" class="anchor-link">Program</a>
-        <a href="index.html" class="anchor-link">Join</a>
-        <a href="index.html" class="anchor-link">Sponsor</a>
-        <a href="index.html" class="anchor-link">News</a>
-      </div>
-    </div>
+</header>
+<main>
+<section id="welcome">
     <div class="about-first-section">
         <div id="about-first-section">
             <div class="first-section-background">
@@ -68,9 +55,9 @@
             </div>
         </div>
     </div>
-    <main>
-        <section>
-            <div class="about-second-section">
+</section>
+ <section id="intro-section">
+        <div class="about-second-section">
                 <h2>Open Source</h2>
                 <h3>Global Summit 2021 Logo</h3>
                 <p>The logo of Open Source Submit 2021 was decided<br>through 
@@ -81,6 +68,8 @@
                 <div class="line3">
                 </div>
             </div>
+        </section>
+        <section id="past-event-section">
             <div class="about-third-section">
                 <h2>See the past OS Global Summit</h2>
                 <p>Take a look at the last two Open Source Global summit which took place<br>in Egypt and Kenya</p>
@@ -95,6 +84,8 @@
                     <p class="center-item"> <span>2019</span><br>Open Source Global Summit Kenya</p>
                 </div>
             </div>
+        </section>
+        <section id="partners-section">
             <div class="partners">
                 <h2>Partners</h2>
                 <div class="partners-logo">
@@ -105,6 +96,8 @@
                     <img class="github-logo" src="./images/github-logo.png" alt="Github display logo">
                 </div>
             </div>
+        </section>
+        <footer>
             <div class="mobile-about-footer">
                 <img src="./images/venture-logo.jpg" alt="cc-logo">
                 <img src="./images/mozilla-logo.png" alt="mozilla-image">
@@ -113,8 +106,21 @@
                     <span>Open Source<br></span>
                 </a>
             </div>
-        </section>
+        </footer>
     </main>
+    <div class="mobile-menu">
+        <div class="sidebar-cancel">
+          <i class="far fa-times-circle fa-3x closeBtn"></i>
+        </div>
+        <div class="menuPopUp">
+          <a href="index.html" class="anchor-link">Home</a>
+          <a href="about.html" class="anchor-link">About</a>
+          <a href="index.html" class="anchor-link">Program</a>
+          <a href="index.html" class="anchor-link">Join</a>
+          <a href="index.html" class="anchor-link">Sponsor</a>
+          <a href="index.html" class="anchor-link">News</a>
+        </div>
+      </div>
     <script src="about.js"></script>
 </body>
 </html>
