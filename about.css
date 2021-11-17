@@ -26,6 +26,10 @@
   display: none;
 }
 
+.sidebar {
+  display: none;
+}
+
 #about-handburger {
   padding-top: 6%;
   margin: 0 1em;
@@ -35,6 +39,24 @@
   content: "\f0c9";
   font-size: 40px;
   color: var(--primary_4);
+}
+
+.menu1 {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.menuPopUp a {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 3rem;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  list-style: none;
+  margin-right: 2rem;
 }
 
 .about-first-section {
