@@ -59,7 +59,7 @@ guestSpeakers.forEach((card) => {
     guestSpeakerAtEvent.innerHTML += displaySpeakerInfo(card);
 });
 
-const hamburger = document.querySelector('.menu1');
+const hamburger = document.querySelector('.menu');
 const closeBtn = document.querySelector('.closeBtn');
 
 hamburger.addEventListener('click', () => {

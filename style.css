@@ -17,7 +17,8 @@
   margin: 0;
 }
 
-body, html {
+body, 
+html {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
@@ -48,8 +49,6 @@ body, html {
 }
 
 .menu1 {
-  margin-top: 30px;
-  margin-right: 10px;
   padding-top: 6%;
   margin: 0 1em;
 }
@@ -57,6 +56,11 @@ body, html {
 .mobile-menu .sidebar-cancel {
   margin: 30px;
   color: var(--secondary_1);
+}
+
+.mobile-second-page a {
+  color: var(--secondary_1);
+  font-size: xx-large;
 }
 
   .mobile-menu .menuPopUp a {
@@ -202,11 +206,6 @@ body, html {
   font-size: 20px;
 }
 
-.mobile-second-page a {
-  color: var(--secondary_1);
-  font-size: xx-large;
-}
-
 .mobile-second-page button {
   font-family: 'Lato', sans-serif;
   font-size: 12px;
@@ -261,7 +260,7 @@ body, html {
   width: 100%;
   height: 100%;
 }
- 
+
 .speaker-image {
   width: 8em;
   height: 8em;
@@ -322,14 +321,13 @@ body, html {
 
 .partners {
   display: none;
- }
+}
 
 .mobile-about-footer {
   display: none;
 }
 
 @media all and (min-width: 768px) {
-
   .header-menu {
     display: flex;
     width: 100%;
@@ -479,7 +477,7 @@ body, html {
     margin-right: 4px;
     margin-bottom: 100px;
   }
- 
+
   .card-4 {
     border: 4px solid var(--secondary_1);
   }
@@ -563,5 +561,6 @@ body, html {
 
   .mobile-about-footer a span {
     color: var(--primary_4);
-  }  
+  }
+
 }
