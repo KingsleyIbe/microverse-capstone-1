@@ -9,8 +9,8 @@
   --secondary_1: #fff;
   --secondary_2: #ece9e9;
   --secondary_3: #d1cfcf;
-  --sample: #272a31; 
-  --sample-2: #f73b26; 
+  --sample: #272a31;
+  --sample-2: #f73b26;
   --sample-3: #d3d3d3;
 }
 
@@ -580,7 +580,7 @@ html {
   }
 
   .footer-p {
-    font-family: 'Lato' sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #161515;
   }
 }
