@@ -126,7 +126,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-clip: text;
-  /* background-clip: border-box; */
 }
 
 .mobile-first-page p {

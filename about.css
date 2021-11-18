@@ -342,7 +342,6 @@ h3 {
 }
 
 @media all and (min-width: 768px) {
-
   #about-handburger {
     display: none;
   }
@@ -494,7 +493,7 @@ h3 {
     flex-direction: row;
     width: 50%;
     margin-left: 350px;
-}
+  }
 
   .partners {
     display: none;
@@ -517,5 +516,5 @@ h3 {
 
   .mobile-about-footer a span {
      color: var(--primary_4);
-  }
+    }
 }
