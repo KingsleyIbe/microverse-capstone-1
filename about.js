@@ -1,7 +1,7 @@
 
 window.onload = () => {
 
-    const hamburger = document.querySelector('.menu');
+    const hamburger = document.querySelector('.menu1');
     const closeBtn = document.querySelector('.closeBtn');
     
     hamburger.addEventListener('click', () => {
