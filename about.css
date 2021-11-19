@@ -311,10 +311,11 @@ h3 {
 
 .partners-logo {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   padding: 15px;
   filter: opacity(0.5) drop-shadow(0 0 0 #fff);
 }
@@ -507,7 +508,7 @@ h3 {
   }
 
   .mobile-about-footer {
-    background-color: #dfd6d5;
+    background-color: var(--primary_4);
   }
 
   .mobile-about-footer a {
@@ -522,6 +523,11 @@ h3 {
   }
 
   .mobile-about-footer a span {
-    color: var(--primary_4);
+    color: var(--secondary_1);
+  }
+
+  .footer-p {
+    font-family: 'Lato', sans-serif;
+    color: var(--secondary_1);
   }
 }

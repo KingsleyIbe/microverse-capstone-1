@@ -23,7 +23,7 @@
 body,
 html {
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   overflow-x: hidden;
   padding: 0;
   margin: 0;
@@ -64,6 +64,8 @@ html {
 .mobile-second-page a {
   color: var(--secondary_1);
   font-size: xx-large;
+  margin: auto;
+  width: 25%;
 }
 
 .mobile-menu .menuPopUp a {
@@ -167,7 +169,7 @@ html {
   width: 100%;
   background-repeat: repeat;
   background-size: 10%;
-  background-color: var(--primary_3);
+  background-color: var(--primary_1);
   padding-top: 5%;
 }
 
@@ -207,6 +209,8 @@ html {
 .mobile-second-page h3 {
   color: var(--primary_2);
   font-size: 20px;
+  margin: auto;
+  width: 25%;
 }
 
 .mobile-second-page button {
@@ -222,6 +226,8 @@ html {
 .mobile-second-page p {
   color: var(--secondary_1);
   font-size: 20px;
+  margin: auto;
+  width: 50%;
 }
 
 .mobile-second-page .all-program-link {
@@ -355,7 +361,7 @@ html {
   .desktop-menu {
     display: flex;
     width: 100%;
-    background-color: rgb(210, 218, 194);
+    background-color: var(--secondary_1);
     border: solid 1px var(--primary_4);
     padding-top: 60px;
   }
@@ -477,13 +483,13 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     background-color: rgba(252, 241, 241, 0.277);
     padding: 30px;
     width: 250px;
     margin-left: 0;
-    margin-right: 4px;
+    margin-right: 2px;
     margin-bottom: 100px;
+    height: 72%;
   }
 
   .card-4 {
@@ -493,11 +499,39 @@ html {
   .card-flex {
     display: flex;
     flex-direction: row;
+    gap: 0;
+    justify-content: center;
+    background-image: url(./images/xpattern.jpg);
     width: 100%;
+    background-repeat: repeat;
+    background-size: 10%;
+    background-color: var(--primary_3);
+    height: 100%;
   }
 
   .join-event-btn {
     display: none;
+  }
+
+  .mobile-second-page p {
+    color: var(--secondary_1);
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .mobile-second-page h3 {
+    color: var(--primary_2);
+    font-size: 20px;
+    text-align: center;
+    width: 25%;
+  }
+
+  .mobile-second-page a {
+    color: var(--secondary_1);
+    font-size: xx-large;
+    text-align: center;
+    width: 25%;
   }
 
   .mobile-second-page .all-program-link {
@@ -537,6 +571,11 @@ html {
     background-color: #424146;
   }
 
+  .partners img {
+    width: 150px;
+    height: 60px;
+  }
+
   .partners h2 {
     color: #919191;
   }
@@ -552,7 +591,21 @@ html {
   }
 
   .partners-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 8px; */
     filter: opacity(0.5) drop-shadow(0 0 0 #fff);
+  }
+
+  .partners-logo .github {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .partners-logo .microverse {
+    margin-left: 40px;
   }
 
   .mobile-about-footer {
