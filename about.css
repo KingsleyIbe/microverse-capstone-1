@@ -26,7 +26,8 @@ body {
   overflow-x: hidden;
 }
 
-.header-menu-general {
+.header-menu,
+.desktop-menu {
   display: none;
 }
 
@@ -354,18 +355,15 @@ h3 {
     display: none;
   }
 
-  .header-menu-general {
-    display: flex;
-  }
-
   .header-menu {
     display: flex;
     width: 100%;
     justify-content: right;
     background-color: var(--primary_4);
-    padding-right: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
+    position: fixed;
+    z-index: 100;
   }
 
   .header-menu a {
@@ -378,11 +376,28 @@ h3 {
   .desktop-menu {
     display: flex;
     width: 100%;
-    justify-content: right;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--secondary_1);
-    margin-top: 80px;
-    margin-bottom: 40px;
-    margin-left: 50px;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: nowrap;
+  }
+  
+  .desktop-container {
+    padding-bottom: 30px;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-left: 20px;
   }
 
   .desktop-menu a {
@@ -393,9 +408,9 @@ h3 {
   }
 
   .desktop-menu .os-logo {
-    margin-right: 450px;
     font-size: large;
     font-weight: bolder;
+    white-space: nowrap;
   }
 
   .desktop-menu .fab {
@@ -412,14 +427,7 @@ h3 {
     color: var(--primary_2);
     border: solid 3px var(--primary_2);
     padding: 7px;
-  }
-
-  nav {
-    position: fixed;
-    width: 100%;
-    overflow: hidden;
-    top: 0;
-    z-index: 600;
+    white-space: nowrap;
   }
 
   #about-first-page {

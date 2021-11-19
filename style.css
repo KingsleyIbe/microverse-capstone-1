@@ -345,7 +345,6 @@ html {
     width: 100%;
     justify-content: right;
     background-color: var(--primary_4);
-    padding-right: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
     position: fixed;
@@ -361,26 +360,41 @@ html {
   .desktop-menu {
     display: flex;
     width: 100%;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--secondary_1);
-    border: solid 1px var(--primary_4);
     padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: nowrap;
   }
 
   .desktop-container {
     padding-bottom: 30px;
     margin-left: 30px;
+    padding-left: 20px;
+    padding-left: 20px;
   }
 
   .desktop-menu a {
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 40px;
     color: var(--primary_4);
     font-family: 'Lato', sans-serif;
   }
 
-  .os-logo span {
+  .desktop-menu .os-logo {
     font-size: large;
     font-weight: bolder;
+    white-space: nowrap;
   }
 
   .desktop-menu .fab {
@@ -397,10 +411,7 @@ html {
     color: var(--primary_2);
     border: solid 3px var(--primary_2);
     padding: 7px;
-  }
-
-  .menu-links {
-    margin-left: 300px;
+    white-space: nowrap;
   }
 
   .menu1 {
