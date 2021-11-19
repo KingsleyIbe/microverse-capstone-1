@@ -415,6 +415,8 @@ html {
     flex-wrap: wrap;
     padding-right: 20px;
     padding-top: 20px;
+    width: 150px;
+    height: 60px;
   }
 
   .mobile-first-page h1 {
@@ -571,11 +573,6 @@ html {
     background-color: #424146;
   }
 
-  .partners img {
-    width: 150px;
-    height: 60px;
-  }
-
   .partners h2 {
     color: #919191;
   }
@@ -595,7 +592,6 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    /* gap: 8px; */
     filter: opacity(0.5) drop-shadow(0 0 0 #fff);
   }
 
