@@ -377,13 +377,6 @@ html {
     flex-wrap: nowrap;
   }
 
-  .desktop-container {
-    padding-bottom: 30px;
-    margin-left: 30px;
-    padding-left: 20px;
-    padding-left: 20px;
-  }
-
   .desktop-menu a {
     text-decoration: none;
     margin-right: 40px;
