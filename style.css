@@ -112,6 +112,7 @@ html {
   background-repeat: no-repeat;
   background-size: 20%, 12%, 5%, 5%;
   background-position: 100% 50%, 60% 0%, 90% 3%, 5% 50%;
+  text-align: center;
 }
 
 .mobile-first-page h1 {
