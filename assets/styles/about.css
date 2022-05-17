@@ -104,7 +104,7 @@ body {
 #about-first-section {
   margin-right: 1em;
   margin-left: 1em;
-  background-image: url('./images/bg-decorator-1.png'), url('./images/bg-decorator-2.png'), url('images/bg-decorator-3.png'), url('./images/bg-decorator-4.png');
+  background-image: url('../images/bg-decorator-1.png'), url('../images/bg-decorator-2.png'), url('../images/bg-decorator-3.png'), url('../images/bg-decorator-4.png');
   background-repeat: no-repeat;
   background-size: 20%, 24%, 10%, 10%;
   background-position: 0 10%, 90% 100%, 80% 50%, 90% 20%;

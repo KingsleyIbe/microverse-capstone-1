@@ -99,7 +99,7 @@ html {
 }
 
 .mobile-top-page {
-  background-image: url(./images/home-mobile.jpg);
+  background-image: url(../images/home-mobile.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -108,7 +108,7 @@ html {
 .mobile-first-page {
   margin-right: 1em;
   margin-left: 1em;
-  background-image: url(./images/bg-decorator-1.png), url(./images/bg-decorator-2.png), url(./images/bg-decorator-3.png), url(./images/bg-decorator-4.png);
+  background-image: url(../images/bg-decorator-1.png), url(../images/bg-decorator-2.png), url(../images/bg-decorator-3.png), url(../images/bg-decorator-4.png);
   background-repeat: no-repeat;
   background-size: 20%, 12%, 5%, 5%;
   background-position: 100% 50%, 60% 0%, 90% 3%, 5% 50%;
@@ -128,7 +128,7 @@ html {
   color: transparent;
   font-size: 40px;
   width: 100%;
-  background-image: url(./images/font.jpg);
+  background-image: url(../images/font.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-clip: text;
@@ -166,7 +166,7 @@ html {
   gap: 20px;
   justify-content: center;
   align-items: center;
-  background-image: url(./images/xpattern.jpg);
+  background-image: url(../images/xpattern.jpg);
   width: 100%;
   background-repeat: repeat;
   background-size: 10%;
@@ -508,7 +508,7 @@ html {
     flex-direction: row;
     gap: 0;
     justify-content: center;
-    background-image: url(./images/xpattern.jpg);
+    background-image: url(../images/xpattern.jpg);
     width: 100%;
     background-repeat: repeat;
     background-size: 10%;
