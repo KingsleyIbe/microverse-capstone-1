@@ -3,37 +3,37 @@ window.onload = () => {
 
 const guestSpeakers = [
     {
-        image: './images/emma-gbenga.png',
+        image: '../assets/images/emma-gbenga.png',
         name: 'Emma Gbenga',
         role: 'Founder Open Source Africa',
         bio: 'Formal UI designer at Google'
     },
     {
-        image: './images/charles-shady.png',
+        image: '../assets/images/charles-shady.png',
         name: 'Charles Shady',
         role: 'Full-stack developer',
         bio: 'Amazon Product Designer'
     },
     {
-        image: './images/ajise-bonke.png',
+        image: '../assets/images/ajise-bonke.png',
         name: 'Ajise Bonke',
         role: 'UI/UX',
         bio: 'Product Manager at Octax'
     },
     {
-        image: './images/kalolo-hauf.png',
+        image: '../assets/images/kalolo-hauf.png',
         name: 'Kalolo Hauf',
         role: 'Managing Director',
         bio: 'Gricd Integrated Services'
     },
     {
-        image: './images/mithi-debas.png',
+        image: '../assets/images/mithi-debas.png',
         name: 'Mithi Debas',
         role: 'CEO',
         bio: 'Drelugs Limited - kelugs integrated venture'
     },
     {
-        image: './images/sam-omar.png',
+        image: '../assets/images/sam-omar.png',
         name: 'Sam Omar',
         role: 'CTO',
         bio: 'VFD Micro-finance Bank'
