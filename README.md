@@ -4,7 +4,7 @@
 
 > This is the first milestone in the conference website project.
 
-![screenshot](/images/project-desktop-v.jpeg)
+![screenshot](/assets/images/project-desktop-v.jpeg)
 
 Application was build with HTML, CSS, JavaScript and Bootstrap to meet the need of a conference website. 
 Users will be able to register for event, create account, join event, access speaker's information, have information about both past and upcoming events and schedule their own events.
@@ -38,17 +38,18 @@ To get a local copy up and running follow these simple example steps.
 ### Install
 [download](https://code.visualstudio.com/download) VScode.
 [Watch this video](https://www.youtube.com/watch?v=MlIzFUI1QGA) on how to install VScode on windows
-## Author
+## Author:
+Kingsley Ibe
 
-- GitHub: [@githubhandle](https://github.com/kingsleyibe)
-- Twitter: [@twitterhandle](https://twitter.com/ibekingsley2)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kingsley-ibe-5669a5134)
+- [Github](https://github.com/kingsleyibe)
+- [Twitter](https://twitter.com/ibekingsley2)
+- [LinkedIn](https://www.linkedin.com/in/kingsley-ibe-5669a5134)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/KingsleyIbe/microverse-capstone-1/issues).
 
 ## Show your support
 
